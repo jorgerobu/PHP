@@ -21,7 +21,7 @@ try {
 	// para los autoincrementos
 	echo "Código de la fila insertada" . $bd->lastInsertId() . "<br>"; 
 
-	// actualizar
+	// actualizar  OJO LO CAMBIARIAMOS A TODOS LOS USUARIOS DE LA TABLA
 	$upd = "update usuario set rol =  0 where rol = 1";
 	$resul = $bd->query($upd);
 
@@ -32,7 +32,7 @@ try {
 	}else print_r( $bd -> errorinfo());	
 
 	// borrar
-	$del = "delete from usuario where nombre = 'Luisa'";
+	$del = "delete from usuario where nombre = 'Alberto'";
 	$resul = $bd->query($del);	
 
 	//comprobar errores

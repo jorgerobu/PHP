@@ -10,3 +10,4 @@ INSERT INTO `empleado` (`id`, `nombre`, `apellido`, `salario`) VALUES
 (1,'Antonio', 'Luna', 2000),
 (2,'Ana', 'Puertas', 2000),
 (3,'Juan', 'Sevilla', 2000);
+
